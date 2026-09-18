@@ -1,17 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // Navbar scroll effect
-  const navbar = document.getElementById('navbar');
-  const handleScroll = () => {
-    if (window.scrollY > 20) {
-      navbar.classList.add('scrolled');
-    } else {
-      navbar.classList.remove('scrolled');
-    }
-  };
-  window.addEventListener('scroll', handleScroll, { passive: true });
-  handleScroll();
-
   // Mobile menu toggle
   const mobileToggle = document.getElementById('mobile-toggle');
   const mobileMenu = document.getElementById('mobile-menu');
@@ -68,6 +56,39 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         target.scrollIntoView({ behavior: 'smooth' });
       }
+    });
+  });
+
+  // Exam card hover rotation effect
+  document.querySelectorAll('.exam-card').forEach(card => {
+    card.addEventListener('mouseenter', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const centerX = rect.width / 2;
+      const rotate = ((x - centerX) / centerX) * 1.5;
+      card.style.transform = `translateY(-4px) rotate(${rotate}deg)`;
+    });
+
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const centerX = rect.width / 2;
+      const rotate = ((x - centerX) / centerX) * 1.5;
+      card.style.transform = `translateY(-4px) rotate(${rotate}deg)`;
+    });
+
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = 'translateY(0) rotate(0deg)';
+    });
+  });
+
+  // Sticker hover effect on hero
+  document.querySelectorAll('.sticker-el').forEach(sticker => {
+    sticker.addEventListener('mouseenter', () => {
+      sticker.style.transform = 'rotate(0deg) scale(1.05)';
+    });
+    sticker.addEventListener('mouseleave', () => {
+      sticker.style.transform = '';
     });
   });
 

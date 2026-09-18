@@ -1,95 +1,137 @@
-# Ignite India Education — Landing Page Design Specification
+# Ignite India Education
 
-## 1. Project Objective
-
-Redesign the **Ignite India Education homepage** into a modern, premium, trustworthy, and youthful education landing page.
-
-The website should feel like a **premium entrance-exam preparation institute**, not like a generic old-style coaching website.
-
-The primary audience is:
-
-* Students preparing for entrance examinations
-* Parents researching coaching institutes
-* Students interested in Design, Fashion, Architecture, Law, Management, and related entrance exams
-
-### Core design feeling
-
-> **Premium + Trustworthy + Energetic + Aspirational**
-
-The design must communicate:
-
-* "This institute knows what it is doing."
-* "Students can trust this institute."
-* "My future can start here."
-* "The website feels modern and relevant to today's students."
+## Bold Youth / Gen-Z Landing Page Design
 
 ---
 
-# 2. Design Direction
+## 1. Design Objective
 
-## Theme
+Redesign the Ignite India Education homepage for a young audience aged approximately **16–24**, while maintaining enough credibility for parents.
 
-### Modern Academic Premium × Youthful
+The homepage should feel:
 
-Use a sophisticated academic foundation with energetic visual elements.
+* Young
+* Energetic
+* Creative
+* Confident
+* Aspirational
+* Modern
+* Social-media friendly
+* Visually memorable
 
-Avoid making the website look:
+The design should NOT resemble a traditional coaching institute website.
 
-* Corporate
-* Too childish
-* Like an ed-tech SaaS dashboard
-* Like a traditional Indian coaching institute
-* Overly colorful
-* Overly animated
+### Core concept
 
-The design should have a strong visual hierarchy and generous whitespace.
+> **Education meets youth culture.**
 
----
-
-# 3. Color System
-
-Use a restrained color palette.
-
-### Primary
+Think of a combination of:
 
 ```text
-Deep Navy
-#0B1F3A
+Modern EdTech
++
+Creative Portfolio Website
++
+Youth Magazine
++
+Gen-Z Social Media Visual Language
+```
+
+---
+
+# 2. Design Personality
+
+The homepage should communicate:
+
+> "Your entrance preparation doesn't have to look boring."
+
+The visual language should be bold but controlled.
+
+Use:
+
+* Oversized typography
+* Bright accent colors
+* Strong image compositions
+* Sticker-style badges
+* Hand-drawn arrows
+* Playful labels
+* Offset elements
+* Large numbers
+* Editorial layouts
+* Interactive hover effects
+
+Avoid making it look like a children's website.
+
+---
+
+# 3. Color Palette
+
+Use a bright, high-energy palette.
+
+### Primary Black
+
+```text
+#111111
+```
+
+Used for:
+
+* Main text
+* Navigation
+* Large typography
+* Footer
+* Dark sections
+
+### Electric Yellow
+
+```text
+#FFD84D
+```
+
+Primary accent.
+
+Use for:
+
+* CTA buttons
+* Highlights
+* Badges
+* Background blocks
+* Important statistics
+
+### Cobalt Blue
+
+```text
+#3155FF
 ```
 
 Use for:
 
-* Primary headings
-* Navbar
-* Important sections
-* Footer
-* Strong CTA backgrounds
+* Secondary sections
+* Course cards
+* Decorative shapes
+* Links
+* Hover states
 
-### Background
-
-```text
-Warm Off White
-#F8F7F2
-```
-
-Use as the primary page background.
-
-This should replace the typical pure-white coaching website aesthetic.
-
-### Accent
+### Bright Orange
 
 ```text
-Energetic Yellow
-#FFB800
+#FF6B35
 ```
 
 Use sparingly for:
 
-* CTA highlights
-* Small badges
-* Important numbers
+* Small highlights
+* Tags
 * Decorative elements
-* Hover states
+* Important UI details
+
+### Off White
+
+```text
+#F7F5EF
+```
+
+Main page background.
 
 ### White
 
@@ -97,84 +139,91 @@ Use sparingly for:
 #FFFFFF
 ```
 
-Use for cards and contrast areas.
-
-### Text
-
-```text
-#111111
-```
-
-Primary body text.
-
-### Secondary Text
-
-```text
-#667085
-```
-
-Use for supporting descriptions.
+Use for cards and contrast sections.
 
 ---
 
-# 4. Typography
+# 4. Color Rule
 
-Use modern typography.
+Do not use all colors equally.
 
-### Headings
-
-Preferred:
+Recommended hierarchy:
 
 ```text
-DM Serif Display
+Black        45%
+Off White    30%
+Yellow       15%
+Blue          7%
+Orange        3%
+```
+
+The yellow and blue should create energy without making the website visually chaotic.
+
+---
+
+# 5. Typography
+
+Typography is a major part of the design.
+
+### Primary Display Font
+
+Use:
+
+```text
+Space Grotesk
 ```
 
 Alternative:
 
 ```text
-Playfair Display
+Plus Jakarta Sans
 ```
 
-Headings should feel editorial and premium.
+### Display / Special Headlines
 
-### Body / UI
-
-Preferred:
+Use:
 
 ```text
-Manrope
+Archivo Black
 ```
 
-Alternative:
+or
+
+```text
+Anton
+```
+
+Use only for very large headlines.
+
+### Body
+
+Use:
 
 ```text
 Inter
 ```
 
-Use the sans-serif font for:
-
-* Navigation
-* Buttons
-* Cards
-* Paragraphs
-* Statistics
-* Labels
-
-### Typography principle
-
-Use contrast:
+or
 
 ```text
-Editorial Serif Heading
-+
-Modern Sans-serif Interface
+Manrope
 ```
 
-Do NOT use more than two font families.
+### Typography characteristics
+
+Headlines should be:
+
+* Huge
+* Bold
+* Tight
+* Confident
+* Short
+
+Avoid long paragraph-heavy sections.
 
 ---
 
-# 5. Overall Layout
+# 6. Global Layout
 
 Desktop max-width:
 
@@ -182,374 +231,452 @@ Desktop max-width:
 1280px
 ```
 
-Content width:
+Main content:
 
 ```text
-1200px approximately
+1200px
 ```
 
-Use generous horizontal padding.
+Use a strong grid system.
 
-Mobile:
+Prefer:
 
 ```text
-20px
+12-column desktop grid
 ```
 
-Tablet:
+Spacing should be generous.
 
-```text
-32px
-```
-
-Desktop:
-
-```text
-48px
-```
-
-Sections should have large vertical spacing.
-
-Avoid cramped sections.
+Sections should feel like individual visual compositions.
 
 ---
 
-# 6. Navbar
+# 7. Navbar
 
-Create a clean, premium sticky navbar.
+The navbar should be simple and youthful.
 
-### Desktop structure
-
-Left:
+### Desktop
 
 ```text
-Ignite India Education Logo
-```
+[ LOGO ]
 
-Center/right:
-
-```text
 Courses
 Exams
 Results
 About
 Centres
+
+[ LET'S TALK → ]
 ```
 
-Right:
+CTA button:
 
 ```text
-Enquire Now →
+background: #FFD84D
+text: #111111
 ```
 
-### Navbar behavior
+Use slightly rounded corners.
 
-At top:
+### Navbar style
 
-* Transparent or warm-background navbar
-* Minimal border
+* White/off-white background
+* Black typography
+* Thin bottom border
+* Sticky on scroll
 
-On scroll:
-
-* Solid `#FFFFFF`
-* Subtle bottom border
-* Slight shadow only if necessary
-
-Navbar should remain visible while scrolling.
-
-### Mobile
-
-Use:
-
-```text
-Logo        Menu
-```
-
-Menu opens as a clean full-width/mobile drawer.
-
-Do not use a complicated mega menu on mobile.
+Avoid a large traditional navbar.
 
 ---
 
-# 7. Hero Section
+# 8. Hero Section
 
-The hero is the most important section.
+The hero should immediately grab attention.
 
-It should immediately communicate what Ignite India Education does.
+This section should be the most visually memorable part of the website.
 
 ### Layout
+
+Use an asymmetric composition.
+
+```text
+------------------------------------------------
+|                                              |
+|  SMALL BADGE                                 |
+|                                              |
+|  YOUR DREAM                                  |
+|  COLLEGE                                     |
+|  STARTS                                      |
+|  HERE.              [STUDENT IMAGE]         |
+|                                              |
+|  Short description                           |
+|                                              |
+|  [ EXPLORE COURSES ] [ TALK TO US ]         |
+|                                              |
+------------------------------------------------
+```
+
+Do not use a generic centered hero.
+
+---
+
+# 9. Hero Headline
+
+Suggested headline:
+
+```text
+YOUR DREAM
+COLLEGE
+STARTS HERE.
+```
+
+Alternative:
+
+```text
+THINK BIG.
+PREPARE SMART.
+GET THERE.
+```
+
+Use oversized typography.
 
 Desktop:
 
 ```text
-------------------------------------------------
-| LEFT CONTENT              | RIGHT VISUAL     |
-|                           |                  |
-| Small badge               | Student image   |
-| Large headline            | / collage       |
-| Description               |                  |
-| CTA buttons               | Floating stats  |
-------------------------------------------------
+80px – 110px
 ```
 
-### Eyebrow
-
-Use a small label such as:
+Mobile:
 
 ```text
-INDIA'S ENTRANCE EXAM PREPARATION
+48px – 64px
 ```
 
-or
-
-```text
-DESIGN • FASHION • ARCHITECTURE • MANAGEMENT
-```
-
-### Main headline
-
-Use large editorial typography.
-
-Suggested:
-
-```text
-Shape Your Future.
-Crack Your Dream College.
-```
-
-Highlight one phrase using the yellow accent.
+One word can use the yellow highlight.
 
 Example:
 
 ```text
-Shape Your
-Future.
-Crack Your Dream College.
+YOUR DREAM
+COLLEGE
+STARTS [HERE.]
 ```
 
-Do not make every word colorful.
-
-### Description
-
-Keep it short:
-
-```text
-Expert guidance, focused preparation and proven learning
-methods to help you prepare for India's leading entrance exams.
-```
-
-### Primary CTA
-
-```text
-Explore Courses →
-```
-
-### Secondary CTA
-
-```text
-Talk to a Counsellor
-```
-
-Primary CTA should use Deep Navy.
-
-Secondary CTA should be outlined.
+`HERE.` sits inside a yellow rectangular/highlighted block.
 
 ---
 
-# 8. Hero Visual
+# 10. Hero Image
 
-Do NOT use a generic corporate stock image.
+Use an authentic young Indian student.
 
-Use an authentic education/student-focused visual.
+Preferred subjects:
 
-Preferred visual:
-
-* Young Indian student
-* Creative/design student
+* Design student
+* Fashion student
+* Architecture student
 * Student sketching
-* Student working on design
-* Architecture/design preparation
-* Classroom interaction
+* Student working on portfolio
+* Creative classroom
 
-The visual can use a large rounded image container.
+Use a large cutout/portrait composition.
 
-### Image treatment
+Instead of putting the image inside a normal rectangular card, allow it to overlap sections.
 
-Use:
+---
+
+# 11. Hero Decorative Elements
+
+Use playful visual elements:
 
 ```text
-border-radius: 24px
+↗
+★
++
+!
+✦
 ```
 
-Avoid excessive image filters.
+and hand-drawn arrows.
 
-### Floating elements
-
-Add 2–3 small floating information cards.
-
-Example:
+Example sticker:
 
 ```text
-25,000+
-Students Guided
+★ 20+ YEARS
+OF EXPERIENCE
 ```
 
 Another:
 
 ```text
-20+
-Years of Experience
+25K+
+STUDENTS
 ```
 
-Another small badge:
+These should look like intentional graphic elements.
 
-```text
-NIFT • NID • NATA • UCEED
-```
-
-These should feel integrated, not like random dashboard widgets.
+Do NOT randomly scatter decorations.
 
 ---
 
-# 9. Trust Strip
+# 12. Hero CTA
 
-Immediately below hero.
+Primary:
 
-Use a compact horizontal trust section.
+```text
+Explore Courses →
+```
+
+Secondary:
+
+```text
+Talk to a Counsellor
+```
+
+Primary button:
+
+```text
+Black background
+White text
+```
+
+Secondary:
+
+```text
+Yellow background
+Black text
+```
+
+Buttons should have a slightly playful hover interaction.
 
 Example:
 
 ```text
-20+ Years Experience     25,000+ Students
-Multiple Entrance Exams     Expert Faculty
+Arrow moves → 
+Button shifts 2–3px
 ```
-
-Use large numbers with small supporting labels.
-
-Keep it visually clean.
-
-Do not use huge animated counters.
 
 ---
 
-# 10. Exam / Course Discovery Section
+# 13. Marquee / Moving Statement
 
-Heading:
-
-```text
-What Are You Preparing For?
-```
-
-Supporting text:
-
-```text
-Choose your path and find the right preparation program.
-```
-
-Create visually attractive category cards.
-
-Possible categories:
-
-```text
-NIFT
-NID
-UCEED
-NATA
-CLAT
-BBA / BBM
-Fine Arts
-Other Entrance Exams
-```
-
-### Card design
-
-Each card should contain:
-
-* Small icon/visual
-* Exam name
-* One-line description
-* Arrow
+Immediately after the hero, add a horizontal scrolling strip.
 
 Example:
 
 ```text
-NIFT
-Fashion & Design Entrance
-
-Explore →
+NIFT ✦ NID ✦ UCEED ✦ NATA ✦ CLAT ✦ BBA ✦
 ```
 
-Cards should have:
-
-* White background
-* Thin border
-* 16–20px radius
-* Subtle hover movement
-* Yellow accent on hover
-
-Avoid heavy box shadows.
-
----
-
-# 11. Why Ignite Section
-
-Create a visually strong split layout.
-
-Left:
-
-Large heading:
+or:
 
 ```text
-More Than
-Just Coaching.
+DREAM BIG ✦ CREATE MORE ✦ PREPARE BETTER ✦
 ```
-
-Right:
-
-Short explanation.
-
-Then feature list:
-
-```text
-01  Expert Mentorship
-02  Structured Preparation
-03  Mock Tests & Practice
-04  Personalised Guidance
-```
-
-Use large numbered typography.
-
-This section should feel editorial rather than like a normal icon grid.
-
----
-
-# 12. Results / Success Section
-
-Create a strong credibility section.
 
 Background:
 
 ```text
-#0B1F3A
+#111111
 ```
 
 Text:
 
 ```text
-Built Around
-Student Success.
+#FFD84D
 ```
 
-Display important statistics.
+Keep the animation slow and subtle.
+
+Respect reduced-motion preferences.
+
+---
+
+# 14. Exam Discovery Section
+
+Heading:
+
+```text
+WHAT'S YOUR
+DREAM EXAM?
+```
+
+Use very large typography.
+
+Create colorful exam cards.
+
+### Cards
+
+```text
+NIFT
+Fashion & Design
+
+→
+```
+
+```text
+NID
+Design Entrance
+
+→
+```
+
+```text
+NATA
+Architecture
+
+→
+```
+
+```text
+UCEED
+Design Aptitude
+
+→
+```
+
+```text
+CLAT
+Law Entrance
+
+→
+```
+
+```text
+BBA
+Management
+
+→
+```
+
+---
+
+# 15. Exam Card Design
+
+Do NOT make every card identical.
+
+Use different accent backgrounds:
+
+```text
+Yellow
+Blue
+Orange
+Black
+White
+```
+
+Each card should have:
+
+* Large exam abbreviation
+* Small description
+* Arrow
+* Small decorative graphic
 
 Example:
 
 ```text
-25,000+
-Students Guided
+┌─────────────────────────┐
+│ NIFT                    │
+│                         │
+│ FASHION                 │
+│ DESIGN                  │
+│                         │
+│                    ↗    │
+└─────────────────────────┘
+```
 
+Hover:
+
+* Card slightly rotates
+* Arrow moves
+* Accent graphic appears
+
+Keep rotation subtle:
+
+```text
+1–2 degrees
+```
+
+---
+
+# 16. Why Ignite Section
+
+Do not use the standard:
+
+```text
+Icon
+Heading
+Paragraph
+```
+
+grid.
+
+Instead create a large editorial statement.
+
+Headline:
+
+```text
+NOT JUST
+COACHING.
+```
+
+Then:
+
+```text
+We help students understand,
+prepare and move confidently
+towards their dream college.
+```
+
+Below this, show feature numbers:
+
+```text
+01
+Expert Mentors
+
+02
+Structured Preparation
+
+03
+Mock Tests
+
+04
+Career Guidance
+```
+
+Use large numbers as visual anchors.
+
+---
+
+# 17. Experience / Stats Section
+
+Create a bold black section.
+
+Background:
+
+```text
+#111111
+```
+
+Yellow typography.
+
+Heading:
+
+```text
+YEARS OF
+EXPERIENCE.
+```
+
+Then large statistics.
+
+Example:
+
+```text
 20+
-Years of Experience
+Years
+
+25K+
+Students
 
 Multiple
 Entrance Exams
@@ -558,53 +685,66 @@ Pan-India
 Presence
 ```
 
-If actual verified result numbers are available in the existing website/data, use them.
+Only display factual statistics that are supported by actual Ignite India Education data.
 
-Do NOT invent statistics.
-
-If a statistic cannot be verified, do not display it as a factual claim.
+Do not invent numbers.
 
 ---
 
-# 13. Student Success Stories
+# 18. Student Stories
 
-Create a horizontal testimonial/success-story section.
+Make testimonials feel like social posts/editorial cards rather than corporate testimonials.
 
 Heading:
 
 ```text
-Stories That Inspire Us.
+THEY DID IT.
+YOU CAN TOO.
 ```
 
-Cards should include:
-
-* Student photo if available
-* Student name
-* Exam/college
-* Short testimonial
-
-Example structure:
+Each card:
 
 ```text
 [Student Image]
 
-"Short authentic testimonial..."
+★★★★★
+
+"Authentic student testimonial..."
 
 Student Name
-NIFT / NID / UCEED
+Exam / Course
 ```
 
-Do not fabricate testimonials.
+Use large quotation marks.
 
-Use existing authentic testimonials where available.
+Allow cards to have slightly different rotations:
+
+```text
+-1°
++1°
+-0.5°
+```
+
+Do not overdo this effect.
+
+Use only real testimonials.
 
 ---
 
-# 14. Learning Experience Section
+# 19. Learning Experience
 
-Create a modern visual section explaining what students get.
+Create a visually rich section.
 
-Possible items:
+Heading:
+
+```text
+WHAT YOU
+GET HERE.
+```
+
+Use a collage-style layout.
+
+Items:
 
 ```text
 Expert Faculty
@@ -612,115 +752,199 @@ Study Material
 Mock Tests
 Doubt Sessions
 Career Guidance
-Online + Offline Learning
+Online + Offline
 ```
 
-Use a magazine/editorial layout instead of six identical cards.
+Instead of six identical cards, use different block sizes.
 
-One large feature can occupy the left side.
+Example:
 
-Smaller features can be arranged on the right.
+```text
+┌──────────────────────┐
+│ EXPERT FACULTY       │
+│                      │
+│ Learn from people    │
+│ who know the game.   │
+└──────────────────────┘
+
+┌───────────────┐
+│ MOCK TESTS    │
+│         ↗     │
+└───────────────┘
+
+┌────────────────────┐
+│ CAREER GUIDANCE    │
+└────────────────────┘
+```
 
 ---
 
-# 15. Centre / Presence Section
+# 20. Visual Design Elements
 
-Create a location-focused section.
+Introduce a recognizable graphic language.
+
+Use:
+
+### Stickers
+
+```text
+★ DREAM BIG
+```
+
+```text
+100% FOCUS
+```
+
+```text
+LET'S GO →
+```
+
+### Hand-drawn arrows
+
+```text
+↗
+↘
+←
+```
+
+### Circles
+
+Use hand-drawn circle outlines around selected words.
+
+### Underlines
+
+Use yellow rough/highlighter style underlines.
+
+### Stars
+
+Use small stars as decorative elements.
+
+Keep these elements consistent throughout the page.
+
+---
+
+# 21. Results / Achievement Section
+
+Instead of a generic results table, create a visual achievement wall.
+
+Example:
+
+```text
+RESULTS
+THAT
+MATTER.
+```
+
+Then:
+
+```text
+[Student]
+NIFT
+
+[Student]
+NID
+
+[Student]
+NATA
+```
+
+If actual ranks/results are available, show them with proper context.
+
+Never fabricate ranks or selection claims.
+
+---
+
+# 22. Centre / Locations
+
+Use a simplified India visual.
 
 Heading:
 
 ```text
-Learn With Ignite,
-Wherever You Are.
+FIND IGNITE
+NEAR YOU.
 ```
 
-Show the institute's actual listed locations.
+Show actual locations as dots/list.
 
-Possible visual:
+Possible design:
 
-* India map illustration
-* Location dots
-* Centre list
+```text
+              DELHI ●
 
-Do not create a complex interactive map unless required.
+      JAIPUR ●
 
-The purpose is to communicate presence and accessibility.
+MUMBAI ●             ● KOLKATA
+
+              ● PATNA
+```
+
+Do not create fake locations.
+
+Use the locations actually listed by Ignite.
 
 ---
 
-# 16. Final CTA
+# 23. Final CTA
 
-This should be one of the strongest sections on the page.
+Make this visually bold.
 
 Background:
 
 ```text
-#FFB800
+#FFD84D
 ```
 
-Heading:
+Headline:
 
 ```text
-Your Dream College
-Starts With One Decision.
+READY TO
+START?
 ```
 
 Supporting text:
 
 ```text
-Talk to our counsellors and find the right preparation path for you.
+Your dream college is closer
+than you think.
 ```
 
-Button:
+Buttons:
 
 ```text
-Talk to a Counsellor →
+[ EXPLORE COURSES → ]
+
+[ TALK TO US ]
 ```
 
-Secondary:
-
-```text
-Explore Courses
-```
-
-Keep this section visually simple.
+Add a small decorative star/arrow.
 
 ---
 
-# 17. Footer
+# 24. Footer
 
-Footer background:
+Dark footer.
+
+Background:
 
 ```text
-#0B1F3A
+#111111
 ```
+
+Use white typography with yellow accents.
 
 Structure:
 
-### Column 1
-
-Logo + short description.
-
-### Column 2
-
 ```text
+IGNITE INDIA EDUCATION
+
 Courses
 Exams
 Results
-Centres
-```
-
-### Column 3
-
-```text
 About
+Centres
 Contact
-FAQs
-```
 
-### Column 4
-
-```text
 Instagram
 Facebook
 YouTube
@@ -730,372 +954,306 @@ Bottom:
 
 ```text
 © Ignite India Education
-All rights reserved.
 ```
 
-Include legal links if they exist:
-
-```text
-Privacy Policy
-Terms & Conditions
-```
+Include existing legal links where available.
 
 ---
 
-# 18. Visual Language
+# 25. Micro-interactions
 
-The website should use:
-
-### Borders
-
-Thin:
-
-```text
-1px solid
-```
-
-Prefer borders over heavy shadows.
-
-### Border radius
-
-Use consistent radius:
-
-```text
-16px – 24px
-```
-
-Buttons:
-
-```text
-10px – 12px
-```
-
-### Shadows
-
-Use very subtle shadows only where necessary.
-
-Avoid:
-
-```text
-large glowing shadows
-```
-
-Avoid:
-
-```text
-glassmorphism everywhere
-```
-
----
-
-# 19. Image Style
-
-Use authentic, high-quality Indian student imagery.
-
-Image subjects should feel:
-
-* Young
-* Aspirational
-* Creative
-* Focused
-* Natural
-
-Avoid overly posed corporate stock photography.
-
-For Design/Fashion sections, use:
-
-* Sketchbooks
-* Fashion sketches
-* Architecture models
-* Creative workspace
-* Students drawing
-* Studio/classroom scenes
-
----
-
-# 20. Icons
-
-Use a single consistent icon library.
-
-Preferred:
-
-```text
-Lucide Icons
-```
-
-Icons should be:
-
-* Thin
-* Minimal
-* Consistent
-
-Do not mix multiple icon styles.
-
----
-
-# 21. Animations
-
-Animations should feel premium and subtle.
+The site should feel alive.
 
 Use:
 
-* Fade-up on section entrance
-* Small image reveal
-* Button hover
-* Card hover
-* Number count-up only where meaningful
+### Buttons
 
-Avoid:
-
-* Excessive parallax
-* Constant floating animations
-* Large spinning elements
-* Text continuously moving across screen
-* Overly dramatic page transitions
-
-Animation duration:
+On hover:
 
 ```text
-200ms – 500ms
+translateX(2px)
 ```
 
-Prefer CSS transitions where possible.
+Arrow moves slightly.
 
-Respect:
+### Cards
+
+On hover:
 
 ```text
-prefers-reduced-motion
+translateY(-4px)
 ```
+
+### Images
+
+Very subtle scale:
+
+```text
+scale(1.02)
+```
+
+### Stickers
+
+Small rotation on hover.
+
+### Marquee
+
+Slow continuous movement.
+
+Do not use excessive animations.
 
 ---
 
-# 22. Responsive Design
+# 26. Scroll Experience
 
-The homepage must be fully responsive.
-
-### Desktop
-
-Use:
+The page should feel like a visual story:
 
 ```text
-2-column hero
-4-column cards where appropriate
-large typography
+HERO
+  ↓
+MOVING STATEMENT
+  ↓
+DREAM EXAM
+  ↓
+WHY IGNITE
+  ↓
+BIG STATS
+  ↓
+STUDENT STORIES
+  ↓
+LEARNING EXPERIENCE
+  ↓
+CENTRES
+  ↓
+FINAL CTA
+  ↓
+FOOTER
 ```
 
-### Tablet
+Each section should visually differ from the previous one.
 
-Reduce:
+---
 
-* Font sizes
-* Horizontal spacing
-* Number of columns
+# 27. Mobile Design
 
-### Mobile
+Mobile is extremely important because the target audience is young.
 
-Hero becomes:
+Hero:
 
 ```text
-Text
-CTA
+Headline
 Image
+CTA
 ```
 
-Course cards:
+Do not squeeze desktop layout onto mobile.
+
+### Mobile headline
+
+Approximately:
 
 ```text
-1 or 2 columns
+48–60px
 ```
 
-Stats:
+### Exam cards
+
+Use:
 
 ```text
-2 columns
+2-column grid
 ```
 
-Testimonials:
+or horizontal scrolling where appropriate.
+
+### Stats
+
+Use:
 
 ```text
-Horizontal swipe / carousel
+2 × 2
 ```
 
-Navbar:
+### Testimonials
 
-```text
-Mobile menu
-```
+Horizontal swipe.
 
-Do not simply shrink the desktop design.
+### Marquee
 
-The mobile layout should be intentionally designed.
+Keep it slow and readable.
+
+Decorative elements should be reduced, not removed completely.
 
 ---
 
-# 23. UX Principles
+# 28. Accessibility
 
-Every section should answer one of these questions:
+Maintain:
 
-```text
-What does Ignite do?
-Why should I trust Ignite?
-Which exam/course is right for me?
-What do students get?
-How successful are students?
-How can I contact Ignite?
-```
+* Sufficient text contrast
+* Keyboard navigation
+* Visible focus states
+* Proper semantic HTML
+* Meaningful image alt text
+* Reduced motion support
+* Buttons with clear labels
 
-Primary conversion goal:
-
-```text
-Enquiry / Counselling
-```
-
-Secondary goal:
-
-```text
-Course discovery
-```
-
-CTA buttons should be visible without becoming annoying.
+Do not sacrifice accessibility for the Gen-Z aesthetic.
 
 ---
 
-# 24. SEO-Friendly Structure
+# 29. Performance
+
+The design should remain fast.
+
+Use:
+
+* WebP/AVIF images
+* Lazy loading
+* Responsive images
+* Optimised fonts
+* CSS animations instead of heavy animation libraries where possible
+* Minimal JavaScript
+* No unnecessary dependencies
+
+Avoid loading huge video backgrounds.
+
+---
+
+# 30. Content Rules
+
+Use real information from the existing Ignite India Education website.
+
+Do not invent:
+
+* Student numbers
+* Rankings
+* Awards
+* Results
+* Testimonials
+* Centres
+* Faculty experience
+* Partnerships
+* Certifications
+
+If existing content is outdated or unclear, keep the visual structure ready but do not create false claims.
+
+---
+
+# 31. SEO Structure
 
 Use semantic HTML.
 
-Recommended structure:
-
-```html
-<header>
-<nav>
-<main>
-<section>
-<section>
-<section>
-<section>
-<section>
-<footer>
-```
-
-Only one primary H1.
-
-Suggested H1:
+One H1:
 
 ```text
-Shape Your Future. Crack Your Dream College.
+YOUR DREAM COLLEGE STARTS HERE.
 ```
 
-Use proper H2 hierarchy for every major section.
+Major sections use H2.
 
-Images must have meaningful `alt` text.
+Use descriptive:
 
-Do not put important text inside images.
+```text
+alt=""
+```
 
----
+for all meaningful images.
 
-# 25. Performance
+Important content should remain actual HTML text.
 
-The homepage should be lightweight.
-
-Requirements:
-
-* Optimise images
-* Prefer WebP/AVIF
-* Lazy-load below-the-fold images
-* Avoid unnecessary JavaScript
-* Avoid huge animation libraries
-* Use modern responsive images
-* Minimise layout shift
-* Keep fonts optimised
-
-Do not sacrifice performance for visual effects.
+Do not render important SEO content only through images.
 
 ---
 
-# 26. What NOT To Do
+# 32. Design System Summary
 
-Do NOT create:
+### Colors
 
-* Generic coaching institute UI
-* Red/blue education template
+```text
+#111111
+#F7F5EF
+#FFD84D
+#3155FF
+#FF6B35
+#FFFFFF
+```
+
+### Fonts
+
+```text
+Space Grotesk
+Inter / Manrope
+```
+
+### UI
+
+```text
+Bold typography
+Thin borders
+Medium radius
+Minimal shadows
+Offset layouts
+Sticker elements
+Editorial grids
+```
+
+### Motion
+
+```text
+Fast
+Playful
+Subtle
+Purposeful
+```
+
+---
+
+# 33. Final Creative Direction
+
+The homepage should feel like:
+
+> **A design-school student's favorite website — but trustworthy enough for their parents.**
+
+The final visual identity should combine:
+
+```text
+GEN-Z ENERGY
+      +
+BOLD TYPOGRAPHY
+      +
+CREATIVE GRAPHICS
+      +
+AUTHENTIC STUDENT IMAGERY
+      +
+STRONG CONVERSION
+      +
+EDUCATION CREDIBILITY
+```
+
+The result should be **memorable within the first 5 seconds** without becoming visually noisy.
+
+---
+
+# 34. Absolute Don'ts
+
+Never use:
+
+* Generic blue coaching template
 * Excessive gradients
 * Glassmorphism
-* Huge shadows
 * Excessive rounded cards
-* Too many colors
-* Overloaded navbar
-* Carousel for every section
-* Fake student testimonials
+* Huge drop shadows
+* Stock-photo collage overload
+* Cartoonish education illustrations
+* Excessive emojis
+* Excessive neon
+* Auto-playing background video
 * Fake statistics
+* Fake testimonials
 * Fake rankings
-* Fake awards
-* Fake results
+* Fake achievements
+* Fake locations
 * Excessive animations
 
-Do not invent business information.
-
-Use actual information from the existing Ignite India Education website/content.
-
----
-
-# 27. Design Keywords
-
-The final visual output should feel:
-
-```text
-Premium
-Modern
-Academic
-Youthful
-Creative
-Trustworthy
-Editorial
-Aspirational
-Indian
-Minimal
-```
-
-It should NOT feel:
-
-```text
-Cheap
-Generic
-Corporate
-Childish
-Over-designed
-Template-based
-Old-fashioned
-```
-
----
-
-# 28. Final Design Goal
-
-The homepage should make a student think:
-
-> "This looks modern and relevant to me."
-
-And make a parent think:
-
-> "This looks established and trustworthy."
-
-The final design should balance both reactions without compromising the youthful personality of the brand.
-
-## Primary Visual Formula
-
-```text
-Modern Editorial Typography
-        +
-Premium Academic Trust
-        +
-Youthful Energy
-        +
-Strong Student Photography
-        +
-Minimal UI
-        +
-Clear Conversion CTA
-```
-
-This is the core design system for the Ignite India Education landing page.
+The design must remain **bold, youthful and premium — not childish or gimmicky.**
