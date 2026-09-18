@@ -59,37 +59,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Exam card hover rotation effect
-  document.querySelectorAll('.exam-card').forEach(card => {
-    card.addEventListener('mouseenter', (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const centerX = rect.width / 2;
-      const rotate = ((x - centerX) / centerX) * 1.5;
-      card.style.transform = `translateY(-4px) rotate(${rotate}deg)`;
-    });
+  // Hide mobile bottom bar when CTA section is visible
+  const ctaSection = document.getElementById('cta');
+  const mobileBar = document.querySelector('.md\\:hidden.fixed.bottom-0');
 
-    card.addEventListener('mousemove', (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const centerX = rect.width / 2;
-      const rotate = ((x - centerX) / centerX) * 1.5;
-      card.style.transform = `translateY(-4px) rotate(${rotate}deg)`;
-    });
+  if (ctaSection && mobileBar) {
+    const ctaObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          mobileBar.style.transform = 'translateY(100%)';
+        } else {
+          mobileBar.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
 
-    card.addEventListener('mouseleave', () => {
-      card.style.transform = 'translateY(0) rotate(0deg)';
-    });
-  });
-
-  // Sticker hover effect on hero
-  document.querySelectorAll('.sticker-el').forEach(sticker => {
-    sticker.addEventListener('mouseenter', () => {
-      sticker.style.transform = 'rotate(0deg) scale(1.05)';
-    });
-    sticker.addEventListener('mouseleave', () => {
-      sticker.style.transform = '';
-    });
-  });
+    ctaObserver.observe(ctaSection);
+  }
 
 });

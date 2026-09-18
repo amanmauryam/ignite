@@ -21,49 +21,11 @@ html {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-  .marquee {
-    animation: none !important;
-  }
-  .marquee-content {
-    animation: none !important;
-  }
 }
 
-/* Hero highlight */
-.hero-highlight {
-  position: relative;
-  display: inline-block;
-  z-index: 1;
-}
-
-.hero-highlight::after {
-  content: '';
-  position: absolute;
-  bottom: 2px;
-  left: -4px;
-  right: -4px;
-  height: 35%;
-  background: #FFD84D;
-  z-index: -1;
-  transform: skewX(-2deg);
-}
-
-/* Marquee */
-.marquee {
-  display: flex;
-  width: 100%;
-  overflow: hidden;
-}
-
-.marquee-content {
-  display: inline-block;
-  padding-right: 2rem;
-  animation: marquee 25s linear infinite;
-}
-
-@keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
+/* Safe area for mobile bottom bar */
+.safe-area-bottom {
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
 }
 
 /* CTA button micro-interactions */
@@ -91,8 +53,8 @@ html {
 /* Fade-up animation */
 .fade-up {
   opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .fade-up.visible {
@@ -100,20 +62,15 @@ html {
   transform: translateY(0);
 }
 
-/* Exam cards */
-.exam-card {
-  position: relative;
-  overflow: hidden;
-}
-
+/* Exam cards bottom accent */
 .exam-card::after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 4px;
-  background: currentColor;
+  height: 3px;
+  background: #F4B400;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
@@ -123,68 +80,31 @@ html {
   transform: scaleX(1);
 }
 
-/* Testimonial cards */
-.testimonial-card {
-  position: relative;
+/* Course cards */
+.course-card .arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
 }
 
-.testimonial-card::before {
-  content: '\201C';
-  position: absolute;
-  top: 12px;
-  right: 20px;
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 4rem;
-  color: #FFD84D;
-  opacity: 0.2;
-  line-height: 1;
+.course-card:hover .arrow {
+  transform: translateX(3px);
 }
 
-/* Feature items */
-.feature-item {
-  padding: 12px;
-  border-radius: 12px;
-  transition: background-color 0.3s ease;
-}
-
-.feature-item:hover {
-  background-color: rgba(247, 245, 239, 0.8);
-}
-
-/* Sticker hover */
-.sticker-el {
-  transition: transform 0.3s ease;
-}
-
-.sticker-el:hover {
-  transform: rotate(0deg) scale(1.05) !important;
-}
-
-/* Pulse animation for map dots */
-@keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.5; transform: scale(1.5); }
-}
-
-.animate-pulse {
-  animation: pulse 2s ease-in-out infinite;
-}
-
-/* Smooth image loading */
-img {
-  transition: opacity 0.3s ease, transform 0.5s ease;
+/* Gallery hover captions */
+.gallery-grid img {
+  transition: transform 0.5s ease;
 }
 
 /* Selection color */
 ::selection {
-  background: #FFD84D;
-  color: #111111;
+  background: #F4B400;
+  color: #111827;
 }
 
 /* Focus styles */
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid #FFD84D;
+  outline: 2px solid #F4B400;
   outline-offset: 2px;
 }
 
@@ -194,16 +114,16 @@ button:focus-visible {
 }
 
 ::-webkit-scrollbar-track {
-  background: #F7F5EF;
+  background: #F8F7F2;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ccc;
+  background: #d1d5db;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #999;
+  background: #9ca3af;
 }
 
 /* Mobile menu toggle animation */
@@ -217,6 +137,14 @@ button:focus-visible {
 }
 
 #mobile-toggle.active span:nth-child(3) {
-  width: 1.5rem;
+  width: 1.25rem;
   transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
